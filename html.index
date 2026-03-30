@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Future Skills Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <h2>FutureSkills</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Community</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Build Future-Ready Skills</h1>
+  <p>Learn Tech, Business & Creative Skills</p>
+  <button onclick="signup()">Get Started</button>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="card">
+    <h3>Skill Development</h3>
+    <p>Industry-ready learning paths</p>
+  </div>
+
+  <div class="card">
+    <h3>Community</h3>
+    <p>Connect with learners</p>
+  </div>
+
+  <div class="card">
+    <h3>Certification</h3>
+    <p>Get recognized certificates</p>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses">
+  <h2>Popular Courses</h2>
+
+  <div class="course-card">
+    <h3>Full Stack Development</h3>
+    <p>HTML, CSS, JS, React</p>
+    <button>Enroll</button>
+  </div>
+
+  <div class="course-card">
+    <h3>AI & Data Science</h3>
+    <p>Python, ML, NLP</p>
+    <button>Enroll</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Future Skills Academy</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
